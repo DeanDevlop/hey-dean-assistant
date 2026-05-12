@@ -7,8 +7,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "14.0.4", // Pinned to a specific version
+    "react": "18.2.0", // Pinned to a specific version
+    "react-dom": "18.2.0", // Pinned to a specific version
+    "express-rate-limit": "7.1.5" // Added for rate limiting
   }
 }
